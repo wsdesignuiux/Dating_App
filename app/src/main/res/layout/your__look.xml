@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f6f6f6"
+    tools:context="com.example.wolfsoft3.dating_app.Your_Look">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="22.3dp"
+                    android:layout_height="22dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/left_arrow" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="19.3dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="right"
+                    android:text="NEXT"
+                    android:textColor="#fd7049"
+                    android:textSize="15.7sp" />
+
+                <com.github.florent37.arclayout.ArcLayout
+                    android:id="@+id/diagonalLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="1dp"
+                    android:paddingTop="5dp"
+                    app:arc_cropDirection="cropOutside"
+                    app:arc_height="50dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_boy_charcter" />
+
+                </com.github.florent37.arclayout.ArcLayout>
+
+                <!--<ImageView-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_marginLeft="150dp"-->
+                <!--android:src="@drawable/face_button_01"/>-->
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/character_gray_1"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/character_gray_1" />
+
+
+                <ImageView
+                    android:id="@+id/character_gray_8"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/character_gray_8" />
+
+                <ImageView
+                    android:id="@+id/character_gray_6"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/character_gray_6" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/character_gray_4"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/character_gray_4" />
+
+                <ImageView
+                    android:id="@+id/character_gray_5"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/character_gray_5" />
+
+                <ImageView
+                    android:id="@+id/character_gray_3"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/character_gray_3" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="30dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/character_gray_7"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/character_gray_7" />
+
+                <ImageView
+                    android:id="@+id/character_gray_2"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/character_gray_2" />
+
+
+                <ImageView
+                    android:id="@+id/character_gray_9"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/character_gray_9" />
+
+            </LinearLayout>
+
+
+            <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:id="@+id/recycle_your_look"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="35dp"-->
+            <!--android:layout_marginRight="35dp"-->
+            <!--android:paddingBottom="30dp"-->
+            <!--android:nestedScrollingEnabled="false"-->
+            <!--android:clipToPadding="true"-->
+            <!--android:layout_marginTop="45dp" />-->
+
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:elevation="20dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/face_button_2" />
+
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</ScrollView>

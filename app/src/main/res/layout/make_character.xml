@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.wolfsoft3.dating_app.Make_Character">
+
+    <!--<Button-->
+    <!--android:id="@+id/logout_btn"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Log out" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/toolbar_make_charater" />
+
+        </android.support.v7.widget.CardView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f5f5f5"
+                    android:paddingBottom="35dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="55.3dp"
+                        android:layout_marginRight="55.3dp"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="Pick a cool name"
+                        android:textColor="@color/black"
+                        android:textSize="15.7sp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="55.3dp"
+                        android:layout_marginRight="55.3dp"
+                        android:layout_marginTop="17.7dp"
+                        android:background="@drawable/edit_ract">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#00000000"
+                            android:fontFamily="@font/roboto_regular"
+                            android:hint="Username"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="10dp"
+                            android:textColorHint="#e2e2e2" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="55.3dp"
+                    android:layout_marginRight="55.3dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="32dp"
+                        android:background="@drawable/camera_ract"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/camera"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:onClick="send"
+                            android:src="@drawable/camera" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="31dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="0.7dp"
+                            android:layout_weight="1"
+                            android:background="#b2b2b2" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/or_ract"
+                            android:fontFamily="@font/roboto_regular"
+                            android:gravity="center"
+                            android:text="OR"
+                            android:textColor="#d4d4d4"
+                            android:textSize="12sp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.7dp"
+                            android:layout_weight="1"
+                            android:background="#b2b2b2" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_regular"
+                        android:gravity="center"
+                        android:text="Be Creative like a characterrepresenting you\nand Join blind date with us"
+                        android:textColor="#dcdcdc"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="31.1dp"
+                        android:background="@drawable/chararacter_ract"
+                        android:fontFamily="@font/roboto_regular"
+                        android:gravity="center"
+                        android:paddingBottom="17dp"
+                        android:paddingTop="17dp"
+                        android:text="CREATE YOUR CHARACTER"
+                        android:textColor="@color/white"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#2b66dc"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/facebook" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center"
+            android:text="OR AUTO FILL PROFILE"
+            android:textColor="#ffffff"
+            android:textSize="11.7sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

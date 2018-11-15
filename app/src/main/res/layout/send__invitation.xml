@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical"
+    tools:context="com.example.wolfsoft3.dating_app.Send_Invitation">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp">
+
+        <include layout="@layout/toolbar" />
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="29.6dp"
+        android:layout_marginRight="29.6dp"
+        android:layout_marginTop="32.3dp"
+        android:background="@drawable/send_invitation_ract"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="0.5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/send_invitation_orange_ractt"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <com.skyfishjy.library.RippleBackground
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    app:rb_color="@color/white"
+                    app:rb_duration="3000"
+                    app:rb_radius="32dp"
+                    app:rb_rippleAmount="4"
+                    app:rb_scale="2">
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/centerImage"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_margin="40dp"
+                        android:src="@drawable/bedroom_color_ful_girl_01"
+                        app:riv_oval="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="48dp"
+                        android:layout_marginTop="105dp"
+                        android:text="Peter Doe"
+                        android:textColor="#ffffff"
+                        android:textSize="9.7sp" />
+                </com.skyfishjy.library.RippleBackground>
+
+                <com.skyfishjy.library.RippleBackground xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/content2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    app:rb_color="@color/white"
+                    app:rb_duration="3000"
+                    app:rb_radius="32dp"
+                    app:rb_rippleAmount="4"
+                    app:rb_scale="2">
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/centerImage2"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_margin="40dp"
+                        android:src="@drawable/bedroom_color_ful_girl_01"
+                        app:riv_oval="true" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="48dp"
+                        android:layout_marginTop="105dp"
+                        android:text="Peter Doe"
+                        android:textColor="#ffffff"
+                        android:textSize="9.7sp" />
+                </com.skyfishjy.library.RippleBackground>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="38.7dp"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:text="Peter had sent invitations datinu for you."
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="3 HOURS AGO"
+            android:textColor="#d4d4d4"
+            android:textSize="10.3sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40.3dp"
+            android:layout_marginLeft="36.4dp"
+            android:layout_marginTop="25.7dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="I was wodering if you'd like have dinner\nwith me this Saturday?"
+            android:textColor="@color/black"
+            android:textSize="12.7sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/send"
+            android:layout_marginRight="35.7dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cancle" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/send"
+            android:layout_marginRight="35.7dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pin" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/send"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tick" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/black"
+            android:orientation="horizontal"
+            android:paddingBottom="3dp"
+            android:paddingTop="8dp">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="45dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="15.3dp"
+                    android:src="@drawable/bedroom_color_ful_girl_01"
+                    app:riv_border_color="#26000000"
+                    app:riv_border_width="0.7dp"
+                    app:riv_oval="true" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="45dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="40dp"
+                    android:src="@drawable/bedroom_color_ful01"
+                    app:riv_border_color="#26000000"
+                    app:riv_border_width="0.7dp"
+                    app:riv_oval="true" />
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="You've got new 2 datinu invitations."
+                android:textColor="#f5f5f5"
+                android:textSize="15.3sp" />
+        </LinearLayout>
+</RelativeLayout>

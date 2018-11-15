@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.NavigationView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="start"
+    android:fitsSystemWindows="true"
+    android:id="@+id/navigation_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+        
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:src="@drawable/ic_boy_charcter"
+            app:riv_oval="true"/>
+
+        <TextView
+            android:fontFamily="@font/roboto_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peter Joe"
+            android:layout_marginTop="23.5dp"
+            android:textColor="#1b1b1b"
+            android:textSize="15.3sp"/>
+
+        <TextView
+            android:fontFamily="@font/roboto_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24 - Hanol"
+            android:textColor="#c1c1c1"
+            android:textSize="13.3sp"/>
+
+        <TextView
+            android:fontFamily="@font/roboto_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desinger UI/UX at Fango Hanol"
+            android:textColor="#cacaca"
+            android:layout_marginTop="7dp"
+            android:textSize="11.3sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="71.3dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="24.9dp"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/navigation_ract">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/location"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:fontFamily="@font/roboto_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NEAR BY"
+                android:textColor="#1b1b1b"
+                android:textSize="8.7sp"
+                android:layout_marginTop="12.5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="24.9dp"
+            android:gravity="center">
+
+
+            <ImageView
+                android:layout_width="66.4dp"
+                android:layout_height="66.4dp"
+                android:background="@drawable/navigation_ract"
+                android:scaleType="centerCrop"
+                android:src="@drawable/match_icon"/>
+
+            <TextView
+                android:fontFamily="@font/roboto_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MATHES"
+                android:textColor="#1b1b1b"
+                android:textSize="8.7sp"
+                android:layout_marginTop="12.5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="24.9dp"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/navigation_ract">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/heart"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:fontFamily="@font/roboto_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DATING"
+                android:textColor="#1b1b1b"
+                android:textSize="8.7sp"
+                android:layout_marginTop="12.5dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="34.1dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="24.9dp"
+                android:gravity="center">
+
+
+                <ImageView
+                    android:layout_width="66.4dp"
+                    android:layout_height="66.4dp"
+                    android:background="@drawable/navigation_ract"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/message"/>
+
+                <TextView
+                    android:fontFamily="@font/roboto_regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MESSAGES"
+                    android:textColor="#1b1b1b"
+                    android:textSize="8.7sp"
+                    android:layout_marginTop="12.5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="24.9dp"
+                android:gravity="center">
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/navigation_ract">
+
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/visitor"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:fontFamily="@font/roboto_regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="VISITORS"
+                    android:textColor="#1b1b1b"
+                    android:textSize="8.7sp"
+                    android:layout_marginTop="12.5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="24.9dp"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="@drawable/navigation_ract">
+
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/like_star"/>
+
+                </RelativeLayout>
+                <TextView
+                    android:fontFamily="@font/roboto_regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LIKES"
+                    android:textColor="#1b1b1b"
+                    android:textSize="8.7sp"
+                    android:layout_marginTop="12.5dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.design.widget.NavigationView>

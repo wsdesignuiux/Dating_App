@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.wolfsoft3.dating_app.Romantic_Relationship">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="5dp">
+
+            <include layout="@layout/toolbar"/>
+        </android.support.v7.widget.CardView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="49.8dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Peter &amp; You"
+            android:textColor="@color/orange"
+            android:textSize="22.3sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto_medium"
+            android:text="in Romantic Relation ship"
+            android:textColor="@color/orange"
+            android:textSize="17.3sp" />
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="41dp">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="97dp"
+                android:layout_height="97dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/bedroom_color_ful01"
+                app:riv_oval="true" />
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="97dp"
+                android:layout_height="97dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/bedroom_color_ful_girl_01"
+                app:riv_oval="true" />
+
+
+        </FrameLayout>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="19.8dp"
+            android:layout_marginLeft="40.7dp"
+            android:layout_marginRight="40.7dp"
+            android:layout_marginTop="61.4dp"
+            app:cardBackgroundColor="@color/orange"
+            app:cardCornerRadius="6.7dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12.5dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="Mission Statement"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="22dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="1. At least once week to complete\n    a task"
+                    android:textColor="@color/white"
+                    android:textSize="14.7sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="22dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:paddingLeft="20dp"
+                    android:text="   2. Either Clock and or more then\n       once week without clock in Mission \n       terminate."
+                    android:textColor="@color/white"
+                    android:textSize="14.7sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="17.4dp"
+                    android:layout_marginTop="22dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="3. During the task card to continue,\n     the two slider can't like others."
+                    android:textColor="@color/white"
+                    android:textSize="14.7sp" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginBottom="21dp"-->
+            <!--android:layout_marginTop="19.8dp"-->
+            <!--android:fontFamily="@font/roboto_regular"-->
+            <!--android:text="@string/hello_world"-->
+            <!--android:textSize="16sp" />-->
+    </LinearLayout>
+</ScrollView>

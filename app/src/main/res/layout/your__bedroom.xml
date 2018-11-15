@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="13.3dp"
+    tools:context="com.example.wolfsoft3.dating_app.Your_Bedroom">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="22.3dp"
+                android:layout_height="22dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/left_arrow" />
+
+
+            <com.github.florent37.arclayout.ArcLayout
+                android:id="@+id/diagonalLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:elevation="1dp"
+                app:arc_cropDirection="cropOutside"
+                app:arc_height="50dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_boy_charcter" />
+
+            </com.github.florent37.arclayout.ArcLayout>
+
+            <!--<ImageView-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_marginLeft="150dp"-->
+            <!--android:src="@drawable/face_button_01"/>-->
+
+        </RelativeLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/myviewpager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="54.7dp"
+        android:layout_marginRight="54.7dp"
+        android:background="@drawable/chararacter_ract"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:paddingBottom="17dp"
+        android:paddingTop="17dp"
+        android:text="DONE"
+        android:textColor="#f5f5f5"
+        android:textSize="13sp" />
+</RelativeLayout>

@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/shadow" />
+
+    <TextView
+        android:fontFamily="@font/roboto_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orange"
+        android:textSize="10sp"
+        android:background="#ededed"
+        android:paddingTop="13.3dp"
+        android:paddingBottom="5.7dp"
+        android:gravity="center"
+        android:text="TODAY"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/shadow2" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.3dp"
+        android:layout_marginBottom="10.7dp"
+        android:layout_marginLeft="18.3dp"
+        android:layout_marginRight="4.7dp"
+        android:orientation="horizontal">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/bedroom_color_ful01"
+            app:riv_oval="true"/>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peter Doe"
+                android:textSize="14.7sp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24- Hanol"
+                android:textSize="12.3sp"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="#d4d4d4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desinger UI/UX at Fango Hanol"
+                android:textSize="11.3sp"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="#d4d4d4"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:fontFamily="@font/roboto_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="72%"
+            android:layout_gravity="center"
+            android:textColor="@color/orange"
+            android:textSize="16.7sp"/>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/shadow" />
+
+
+    <TextView
+        android:fontFamily="@font/roboto_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orange"
+        android:textSize="10sp"
+        android:background="#ededed"
+        android:paddingTop="13.3dp"
+        android:paddingBottom="5.7dp"
+        android:gravity="center"
+        android:text="24 NOVEMBER"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/shadow2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.3dp"
+        android:layout_marginBottom="10.7dp"
+        android:layout_marginLeft="18.3dp"
+        android:layout_marginRight="4.7dp"
+        android:orientation="horizontal">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/bedroom_color_ful01"
+            app:riv_oval="true"/>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peter Doe"
+                android:textSize="14.7sp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24- Hanol"
+                android:textSize="12.3sp"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="#d4d4d4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desinger UI/UX at Fango Hanol"
+                android:textSize="11.3sp"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="#d4d4d4"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:fontFamily="@font/roboto_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23%"
+            android:layout_gravity="center"
+            android:textColor="@color/orange"
+            android:textSize="16.7sp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.3dp"
+        android:layout_marginBottom="10.7dp"
+        android:layout_marginLeft="18.3dp"
+        android:layout_marginRight="4.7dp"
+        android:orientation="horizontal">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/bedroom_color_ful01"
+            app:riv_oval="true"/>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peter Doe"
+                android:textSize="14.7sp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24- Hanol"
+                android:textSize="12.3sp"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="#d4d4d4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desinger UI/UX at Fango Hanol"
+                android:textSize="11.3sp"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="#d4d4d4"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:fontFamily="@font/roboto_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0%"
+            android:layout_gravity="center"
+            android:textColor="@color/orange"
+            android:textSize="16.7sp"/>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/shadow" />
+
+
+    <TextView
+        android:fontFamily="@font/roboto_regular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orange"
+        android:textSize="10sp"
+        android:background="#ededed"
+        android:paddingTop="13.3dp"
+        android:paddingBottom="5.7dp"
+        android:gravity="center"
+        android:text="LAST WEEK"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/shadow2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.3dp"
+        android:layout_marginBottom="10.7dp"
+        android:layout_marginLeft="18.3dp"
+        android:layout_marginRight="4.7dp"
+        android:orientation="horizontal">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/bedroom_color_ful01"
+            app:riv_oval="true"/>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peter Doe"
+                android:textSize="14.7sp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24- Hanol"
+                android:textSize="12.3sp"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="#d4d4d4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desinger UI/UX at Fango Hanol"
+                android:textSize="11.3sp"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="#d4d4d4"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:fontFamily="@font/roboto_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="50%"
+            android:layout_gravity="center"
+            android:textColor="@color/orange"
+            android:textSize="16.7sp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.3dp"
+        android:layout_marginBottom="10.7dp"
+        android:layout_marginLeft="18.3dp"
+        android:layout_marginRight="4.7dp"
+        android:orientation="horizontal">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/bedroom_color_ful01"
+            app:riv_oval="true"/>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peter Doe"
+                android:textSize="14.7sp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24- Hanol"
+                android:textSize="12.3sp"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="#d4d4d4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desinger UI/UX at Fango Hanol"
+                android:textSize="11.3sp"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="#d4d4d4"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:fontFamily="@font/roboto_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="60%"
+            android:layout_gravity="center"
+            android:textColor="@color/orange"
+            android:textSize="16.7sp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.3dp"
+        android:layout_marginBottom="10.7dp"
+        android:layout_marginLeft="18.3dp"
+        android:layout_marginRight="4.7dp"
+        android:orientation="horizontal">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/bedroom_color_ful01"
+            app:riv_oval="true"/>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peter Doe"
+                android:textSize="14.7sp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24- Hanol"
+                android:textSize="12.3sp"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="#d4d4d4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desinger UI/UX at Fango Hanol"
+                android:textSize="11.3sp"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="#d4d4d4"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:fontFamily="@font/roboto_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="52%"
+            android:layout_gravity="center"
+            android:textColor="@color/orange"
+            android:textSize="16.7sp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.3dp"
+        android:layout_marginBottom="10.7dp"
+        android:layout_marginLeft="18.3dp"
+        android:layout_marginRight="4.7dp"
+        android:orientation="horizontal">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/bedroom_color_ful01"
+            app:riv_oval="true"/>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Peter Doe"
+                android:textSize="14.7sp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24- Hanol"
+                android:textSize="12.3sp"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="#d4d4d4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desinger UI/UX at Fango Hanol"
+                android:textSize="11.3sp"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="#d4d4d4"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:fontFamily="@font/roboto_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23%"
+            android:layout_gravity="center"
+            android:textColor="@color/orange"
+            android:textSize="16.7sp"/>
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Dating_App</string>
+
+    <string name="hello_world"><font fgcolor="#fe7646">Start</font>
+    <font fgcolor="#717171">/9</font></string>
+
+    <!--use for navigation-->
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+
+
+</resources>

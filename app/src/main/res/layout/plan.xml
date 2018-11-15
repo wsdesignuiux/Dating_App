@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp">
+
+        <include layout="@layout/toolbar" />
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16.7dp"
+            android:layout_marginRight="16.7dp"
+            android:layout_marginTop="40dp"
+
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/plan2_ract"
+                android:orientation="vertical">
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="24.7dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="See who likes you"
+                android:textColor="#f5f5f5"
+                android:textSize="22sp" />
+
+
+                <ToggleButton
+                android:id="@+id/toggleButton1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:background="@drawable/toggle_selector"
+                android:checked="false"
+                android:text=""
+                android:textOff=""
+                android:textOn="" />
+
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/bedroom_color_ful01"
+                app:riv_oval="true" />
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="45dp"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center"
+                android:text="Always see the complete list \nof people who like you"
+                android:textColor="@color/white"
+                android:textSize="12.7sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/plan_ract"
+                android:orientation="horizontal">
+
+
+                <FrameLayout
+                    android:layout_width="107.3dp"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:id="@+id/linear11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="11.7dp"
+                        android:layout_marginTop="10.3dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="BA$IC"
+                            android:textColor="#d4d4d4"
+                            android:textSize="10.7sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12.7dp"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="$2"
+                            android:textColor="@color/black"
+                            android:textSize="28.7sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4.7dp"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="$3"
+                            android:textColor="#d4d4d4"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4.7dp"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="/   week"
+                            android:textColor="#d4d4d4"
+                            android:textSize="13.7sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear1"
+                        android:layout_width="107.3dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/premium_ract"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8.7dp"
+                                android:layout_marginLeft="25dp"
+                                android:layout_marginRight="28.1dp"
+                                android:layout_marginTop="7.3dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="Basic"
+                                android:textColor="#f8f8f8"
+                                android:textSize="11.8sp" />
+
+                            <ImageView
+                                android:layout_width="14.1dp"
+                                android:layout_height="20.5dp"
+                                android:layout_marginRight="11.5dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/bookmar" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/premium_white_ract"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="$2"
+                                android:textColor="@color/black"
+                                android:textSize="36.3sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="$3"
+                                android:textColor="#d4d4d4"
+                                android:textSize="17.7sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="/   week"
+                                android:textColor="#d4d4d4"
+                                android:textSize="13.7sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </FrameLayout>
+
+                <View
+                    android:layout_width="0.3dp"
+                    android:layout_height="match_parent"
+                    android:background="#26000000" />
+
+                <FrameLayout
+                    android:layout_width="107.3dp"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:id="@+id/linear22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="11.7dp"
+                        android:layout_marginTop="10.3dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="BA$IC"
+                            android:textColor="#d4d4d4"
+                            android:textSize="10.7sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12.7dp"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="$8"
+                            android:textColor="@color/black"
+                            android:textSize="28.7sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4.7dp"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="$10"
+                            android:textColor="#d4d4d4"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4.7dp"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="/   month"
+                            android:textColor="#d4d4d4"
+                            android:textSize="13.7sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear2"
+                        android:layout_width="107.3dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/premium_ract"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8.7dp"
+                                android:layout_marginLeft="25dp"
+                                android:layout_marginRight="30.1dp"
+                                android:layout_marginTop="7.3dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="Basic"
+                                android:textColor="#f8f8f8"
+                                android:textSize="11.8sp" />
+
+                            <ImageView
+                                android:id="@+id/bookmar1"
+                                android:layout_width="14.1dp"
+                                android:layout_height="20.5dp"
+                                android:layout_marginRight="11.5dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/bookmar" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/premium_white_ract"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="$8"
+                                android:textColor="@color/black"
+                                android:textSize="36.3sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="$10"
+                                android:textColor="#d4d4d4"
+                                android:textSize="17.7sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="/   month"
+                                android:textColor="#d4d4d4"
+                                android:textSize="13.7sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </FrameLayout>
+
+
+                <View
+                    android:layout_width="0.3dp"
+                    android:layout_height="match_parent"
+                    android:background="#26000000" />
+
+                <FrameLayout
+                    android:layout_width="107.3dp"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:id="@+id/linear33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="11.7dp"
+                        android:layout_marginTop="10.3dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="PREMIUM"
+                            android:textColor="#d4d4d4"
+                            android:textSize="10.7sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12.7dp"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="$80"
+                            android:textColor="@color/black"
+                            android:textSize="28.7sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4.7dp"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="$100"
+                            android:textColor="#d4d4d4"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4.7dp"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="/   year"
+                            android:textColor="#d4d4d4"
+                            android:textSize="13.7sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear3"
+                        android:layout_width="107.3dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/premium_ract"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8.7dp"
+                                android:layout_marginLeft="25dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginTop="7.3dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="PREMIUM"
+                                android:textColor="#f8f8f8"
+                                android:textSize="11.8sp" />
+
+                            <ImageView
+                                android:layout_width="14.1dp"
+                                android:layout_height="20.5dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/bookmar" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:background="@drawable/premium_white_ract"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="$80"
+                                android:textColor="@color/black"
+                                android:textSize="36.3sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="$100"
+                                android:textColor="#d4d4d4"
+                                android:textSize="17.7sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="8dp"
+                                android:fontFamily="@font/roboto_bold"
+                                android:text="/   year"
+                                android:textColor="#d4d4d4"
+                                android:textSize="13.7sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </FrameLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.wolfsoft3.dating_app.Plan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp">
+
+        <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/left_arrow" />
+
+            <TextView
+                android:id="@+id/toolbar_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:text="Peter Doe"
+                android:textColor="@color/orange"
+                android:textSize="15.3sp" />
+
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.v7.widget.CardView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <com.github.florent37.arclayout.ArcLayout
+            android:id="@+id/diagonalLayout"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:elevation="1dp"
+            app:arc_cropDirection="cropOutside"
+            app:arc_height="50dp">
+
+
+            <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/bedroom_color_ful01" />
+
+            </com.github.florent37.arclayout.ArcLayout>
+        </FrameLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Peter Doe"
+            android:textColor="@color/black"
+            android:textSize="15.3sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="24- Hanol"
+            android:textColor="#cecdcd"
+            android:textSize="15.3sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Designer UI/UX at Frangua Hanol"
+            android:textColor="#cecdcd"
+            android:textSize="12sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1.8dp"
+            android:layout_marginTop="16.3dp"
+            android:background="@drawable/shadow" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="8.3dp"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center"
+            android:text="TODAY"
+            android:textColor="#cecdcd"
+            android:textSize="11sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="19dp"
+            android:background="@drawable/chat_left_ract"
+            android:elevation="2dp"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_regular"
+                android:paddingLeft="20dp"
+                android:text="Love purple. like pink hate falsehood. i&apos;m a good boy."
+                android:textColor="#757575"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="19dp"
+            android:layout_marginTop="16.3dp"
+            android:background="@drawable/chat_orange_ract"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Whatsup???"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="19dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/chat_orange_ract"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Hi there ? How are you ?"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="37.7dp"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Sent"
+            android:textColor="#bfbebe"
+            android:textSize="12.3sp" />
+
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_above="@id/linear"
+        android:layout_marginTop="30.5dp"
+        android:background="@drawable/shadow2" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="39.7dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_ract"
+            android:padding="10dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="Message..."
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:textColor="#d4d4d4"
+                android:textSize="13.7sp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="Send"
+            android:textColor="@color/orange"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

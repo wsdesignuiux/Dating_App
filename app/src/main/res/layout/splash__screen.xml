@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.wolfsoft3.dating_app.Splash_Screen">
+
+    <ImageView
+        android:layout_width="238dp"
+        android:layout_height="238dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/destino" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:text="Find you match our"
+        android:textColor="@color/c4c4c4"
+        android:textSize="15.7sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:text="powerful alogrithams"
+        android:textColor="@color/c4c4c4"
+        android:textSize="12.3sp" />
+</LinearLayout>
